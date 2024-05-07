@@ -378,7 +378,7 @@ export interface ApiJobJob extends Schema.CollectionType {
     description: Attribute.Text &
       Attribute.Required &
       Attribute.SetMinMaxLength<{
-        maxLength: 63;
+        maxLength: 300;
       }>;
     location: Attribute.String;
     tag: Attribute.String;

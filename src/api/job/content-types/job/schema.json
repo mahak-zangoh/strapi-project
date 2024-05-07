@@ -19,7 +19,7 @@
     "description": {
       "type": "text",
       "required": true,
-      "maxLength": 63
+      "maxLength": 300
     },
     "location": {
       "type": "string"
